@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "masters-thesis"
+version = "0.1.0"
+description = "My CS master's thesis"
+authors = ["AStaniszewski <staniszewski01adam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
